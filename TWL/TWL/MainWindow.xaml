@@ -24,7 +24,8 @@
             <ColumnDefinition Width="20"/>
         </Grid.ColumnDefinitions>
 
-        <Button Grid.Row="1" Grid.Column="1" Content="Action" Width="120"/>
+        <!--Don't make any change on Action button width(160)
+        <Button Grid.Row="1" Grid.Column="1" Content="Action" Width="160"/>
         <TextBox Grid.Row="5" Grid.Column="3" x:Name="txtRemarks"/>
 
     </Grid>
